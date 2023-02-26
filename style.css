@@ -1,0 +1,119 @@
+body{
+	background-image: url(image/bgbg.jpg);
+}
+* {
+	font-family: "DynaPuff", cursive;
+
+}
+
+
+#aa{
+	background-color:rgb(253, 251, 236);
+	
+}
+
+
+nav{
+	background-color: #e70f40;
+	height: 90px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 40px;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+.navbar ul li {	
+	display: inline-block;
+	padding: 100px 100px;
+}
+#navbarTogglerDemo01{
+		margin-left: 10%;
+}
+#home{
+	background-color: green;
+}
+
+#nako:hover{
+	color: #f3ab81;
+	transition: .3s;
+}
+#home:hover{
+	color: #f3ab81;
+	transition: .3s;
+}
+#lodo{
+	height: 60px;
+}
+ 
+#offcanvasExample{
+	width: 240px;;
+}
+
+.navbar a{
+	color: white;
+
+} 
+.offcanvas-header{
+	background-color: #e70f40;
+	font-family: "DynaPuff", cursive;
+	font-size:20px;
+}
+
+
+#nako{
+	color: white;
+	background-color: aqua;
+	
+}
+
+.offcanvas-body ul li {
+	list-style-type: none;
+}
+
+
+
+#try{
+	
+	width: 100%;
+}
+#try1{
+	
+	border-radius: 20px;
+}
+
+#try2{
+	
+	border-radius: 20px;
+}
+#try3{
+	
+	border-radius: 20px;
+}
+
+.notification .badge {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 5px 10px;
+	border-radius: 50%;
+	background: red;
+	color: white;
+  }
+  .notification {
+	background-color: #fa8003;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	position: relative;
+	display: inline-block;
+	border-radius: 2px;
+  }
+
+  @media only screen and (max-width: 1274px) {
+	.navbar {
+	  width: 100%;
+	}
+  }
+
+
+
